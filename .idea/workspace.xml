@@ -35,7 +35,20 @@
       <recent name="I:\CSE-41\ood_lab\OOP-design-pattern\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FactoryDemo">
+    <configuration name="FactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factory.FactoryDemo" />
+      <module name="OOP-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.SingletonDemo" />
       <module name="OOP-design-pattern" />
@@ -51,6 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryDemo" />
         <item itemvalue="Application.SingletonDemo" />
       </list>
     </recent_temporary>
