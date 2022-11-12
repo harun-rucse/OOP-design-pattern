@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61f4493d-e5e2-4ea6-b17d-9067df444e85" name="Changes" comment="Builder pattern">
-      <change afterPath="$PROJECT_DIR$/src/adapter/AdapterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/AdvanceMediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/MediaAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/Mp4Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/VlcPlayer.java" afterDir="false" />
+    <list default="true" id="61f4493d-e5e2-4ea6-b17d-9067df444e85" name="Changes" comment="Adapter pattern">
+      <change afterPath="$PROJECT_DIR$/src/facade/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/FacadeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/ShapeMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,7 +29,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HRgirdfqLhCVCojsfjzQs1HFSw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +48,7 @@
       <recent name="I:\CSE-41\ood_lab\OOP-design-pattern\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdapterDemo">
+  <component name="RunManager" selected="Application.FacadeDemo">
     <configuration name="AdapterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapter.AdapterDemo" />
       <module name="OOP-design-pattern" />
@@ -59,6 +68,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FacadeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="facade.FacadeDemo" />
+      <module name="OOP-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FacadeDemo" />
         <item itemvalue="Application.AdapterDemo" />
         <item itemvalue="Application.BuilderDemo" />
         <item itemvalue="Application.FactoryDemo" />
@@ -145,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668271680051</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adapter pattern">
+      <created>1668271967504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668271967504</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +194,7 @@
     <MESSAGE value="Singleton pattern" />
     <MESSAGE value="factory method pattern" />
     <MESSAGE value="Builder pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder pattern" />
+    <MESSAGE value="Adapter pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter pattern" />
   </component>
 </project>
