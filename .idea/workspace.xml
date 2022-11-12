@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61f4493d-e5e2-4ea6-b17d-9067df444e85" name="Changes" comment="factory method pattern">
-      <change afterPath="$PROJECT_DIR$/src/builder/Bottle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/BuilderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/ChickenBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Coke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/ColdDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/MealBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Packing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Pepsi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/VegBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Wrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="61f4493d-e5e2-4ea6-b17d-9067df444e85" name="Changes" comment="Builder pattern">
+      <change afterPath="$PROJECT_DIR$/src/adapter/AdapterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/AdvanceMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/MediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/Mp4Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/VlcPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +39,20 @@
       <recent name="I:\CSE-41\ood_lab\OOP-design-pattern\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuilderDemo">
+  <component name="RunManager" selected="Application.AdapterDemo">
+    <configuration name="AdapterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adapter.AdapterDemo" />
+      <module name="OOP-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BuilderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="builder.BuilderDemo" />
       <module name="OOP-design-pattern" />
@@ -88,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdapterDemo" />
         <item itemvalue="Application.BuilderDemo" />
         <item itemvalue="Application.FactoryDemo" />
         <item itemvalue="Application.SingletonDemo" />
@@ -131,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668271139840</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Builder pattern">
+      <created>1668271680051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668271680051</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +163,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Singleton pattern" />
     <MESSAGE value="factory method pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="factory method pattern" />
+    <MESSAGE value="Builder pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder pattern" />
   </component>
 </project>
