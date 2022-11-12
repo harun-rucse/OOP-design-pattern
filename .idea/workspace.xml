@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61f4493d-e5e2-4ea6-b17d-9067df444e85" name="Changes" comment="Facade pattern">
-      <change afterPath="$PROJECT_DIR$/src/proxy/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/ProxyImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/RealImage.java" afterDir="false" />
+    <list default="true" id="61f4493d-e5e2-4ea6-b17d-9067df444e85" name="Changes" comment="Proxy pattern">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chain_of_responsibility/AbstractLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chain_of_responsibility/ConsoleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chain_of_responsibility/ErrorLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chain_of_responsibility/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chain_of_responsibility/ResponsibilityDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +41,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "I:/CSE-41/ood_lab/OOP-design-pattern/src"
   }
 }]]></component>
@@ -46,7 +50,7 @@
       <recent name="I:\CSE-41\ood_lab\OOP-design-pattern\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProxyDemo">
+  <component name="RunManager" selected="Application.ResponsibilityDemo">
     <configuration name="AdapterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapter.AdapterDemo" />
       <module name="OOP-design-pattern" />
@@ -86,19 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factory.FactoryDemo" />
-      <module name="OOP-design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="proxy.ProxyDemo" />
       <module name="OOP-design-pattern" />
@@ -112,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ResponsibilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chain_of_responsibility.ResponsibilityDemo" />
+      <module name="OOP-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chain_of_responsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResponsibilityDemo" />
         <item itemvalue="Application.ProxyDemo" />
         <item itemvalue="Application.FacadeDemo" />
         <item itemvalue="Application.AdapterDemo" />
         <item itemvalue="Application.BuilderDemo" />
-        <item itemvalue="Application.FactoryDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668272608724</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Proxy pattern">
+      <created>1668273645474</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668273645474</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +212,7 @@
     <MESSAGE value="Builder pattern" />
     <MESSAGE value="Adapter pattern" />
     <MESSAGE value="Facade pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Facade pattern" />
+    <MESSAGE value="Proxy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proxy pattern" />
   </component>
 </project>
