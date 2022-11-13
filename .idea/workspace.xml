@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61f4493d-e5e2-4ea6-b17d-9067df444e85" name="Changes" comment="Assignment 2 with chain of responsibility pattern">
-      <change afterPath="$PROJECT_DIR$/src/command/Broker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/BuyStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/CommandDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/SellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/Stock.java" afterDir="false" />
+    <list default="true" id="61f4493d-e5e2-4ea6-b17d-9067df444e85" name="Changes" comment="Command pattern">
+      <change afterPath="$PROJECT_DIR$/src/MVC/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/MVCDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVC/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +48,7 @@
       <recent name="I:\CSE-41\ood_lab\OOP-design-pattern\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CommandDemo">
+  <component name="RunManager" selected="Application.MVCDemo">
     <configuration name="CommandDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="command.CommandDemo" />
       <module name="OOP-design-pattern" />
@@ -64,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FacadeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="facade.FacadeDemo" />
+    <configuration name="MVCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MVC.MVCDemo" />
       <module name="OOP-design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="facade.*" />
+          <option name="PATTERN" value="MVC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MVCDemo" />
         <item itemvalue="Application.CommandDemo" />
         <item itemvalue="Application.assignments.chain_of_responsibility.ResponsibilityDemo" />
         <item itemvalue="Application.ResponsibilityDemo" />
         <item itemvalue="Application.ProxyDemo" />
-        <item itemvalue="Application.FacadeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668279746365</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Command pattern">
+      <created>1668358671212</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668358671212</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +234,7 @@
     <MESSAGE value="Proxy pattern" />
     <MESSAGE value="Chain of Responsibility pattern" />
     <MESSAGE value="Assignment 2 with chain of responsibility pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 with chain of responsibility pattern" />
+    <MESSAGE value="Command pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Command pattern" />
   </component>
 </project>
