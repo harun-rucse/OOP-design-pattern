@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61f4493d-e5e2-4ea6-b17d-9067df444e85" name="Changes" comment="Chain of Responsibility pattern">
-      <change afterPath="$PROJECT_DIR$/src/assignments/chain_of_responsibility/AbstractAuthorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/chain_of_responsibility/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/chain_of_responsibility/AuthorizationChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/chain_of_responsibility/Cashier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/chain_of_responsibility/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/chain_of_responsibility/ResponsibilityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/chain_of_responsibility/SeniorOfficer.java" afterDir="false" />
+    <list default="true" id="61f4493d-e5e2-4ea6-b17d-9067df444e85" name="Changes" comment="Assignment 2 with chain of responsibility pattern">
+      <change afterPath="$PROJECT_DIR$/src/command/Broker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/BuyStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/CommandDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/SellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Stock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,26 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "I:/CSE-41/ood_lab/OOP-design-pattern/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/CSE-41/ood_lab/OOP-design-pattern/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="I:\CSE-41\ood_lab\OOP-design-pattern\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.assignments.chain_of_responsibility.ResponsibilityDemo">
-    <configuration name="AdapterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adapter.AdapterDemo" />
+  <component name="RunManager" selected="Application.CommandDemo">
+    <configuration name="CommandDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="command.CommandDemo" />
       <module name="OOP-design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adapter.*" />
+          <option name="PATTERN" value="command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommandDemo" />
         <item itemvalue="Application.assignments.chain_of_responsibility.ResponsibilityDemo" />
         <item itemvalue="Application.ResponsibilityDemo" />
         <item itemvalue="Application.ProxyDemo" />
         <item itemvalue="Application.FacadeDemo" />
-        <item itemvalue="Application.AdapterDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668275365502</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Assignment 2 with chain of responsibility pattern">
+      <created>1668279746365</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668279746365</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +228,7 @@
     <MESSAGE value="Facade pattern" />
     <MESSAGE value="Proxy pattern" />
     <MESSAGE value="Chain of Responsibility pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chain of Responsibility pattern" />
+    <MESSAGE value="Assignment 2 with chain of responsibility pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 with chain of responsibility pattern" />
   </component>
 </project>
