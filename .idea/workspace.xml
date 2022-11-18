@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61f4493d-e5e2-4ea6-b17d-9067df444e85" name="Changes" comment="Template pattern">
+    <list default="true" id="61f4493d-e5e2-4ea6-b17d-9067df444e85" name="Changes" comment="Observer pattern">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668362415363</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Observer pattern">
+      <created>1668791318045</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668791318045</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +255,7 @@
     <MESSAGE value="Command pattern" />
     <MESSAGE value="MVC pattern" />
     <MESSAGE value="Template pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Template pattern" />
+    <MESSAGE value="Observer pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer pattern" />
   </component>
 </project>
